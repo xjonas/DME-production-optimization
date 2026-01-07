@@ -73,19 +73,16 @@ The model writes key results into an output file, including:
 ---
 
 ## How to Use the Code
+**Prerequisites:** GAMS see https://www.gams.com/download/
 
-### 1️⃣ Prerequisites
-- **GAMS installation** (https://www.gams.com/download/).
-
-### 2️⃣ Running the Model
+## Running the Model
 1. Open `CENG0013_ProjectGAMS_GVLD8.gms` in GAMS.
-2. Execute the file (`Run` button or `F9`).
+2. Execute the file 
 3. The model automatically loops over residence times, optimizing recoveries for each case.
 4. Results are saved in:
-   - **GAMS listing file (`.lst`)**: For detailed solution output.
-   - **Project.txt**: Tabulated data for further analysis (e.g., plotting in Excel or Python).
-
-### 3️⃣ Analyzing Results
-- Plot **Economic Potential vs. Residence Time** to identify the optimal operating point.
-- Review optimal recoveries and assess the trade-offs between recovery, conversion, and cost.
-- Use the data to inform further process design steps or validation with process simulators (e.g., Aspen Plus).
+   - GAMS listing file (`.lst`) -> For detailed solution output.
+   - Project.txt: Tabulated data for further analysis e.g., plotting in Excel
+5. Analyzing Results:
+   - Plot Economic Potential vs. Residence Time to identify the optimal operating point
+   - Review optimal recoveries and assess the trade-offs between recovery, conversion, and cost.
+   - Use the data to inform further process design steps or validation with process simulators in e.g., Aspen Plus.
